@@ -54,7 +54,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
 **Why it matters:**
 Root account usage should be rare and monitored closely. This alarm ensures I'm notified immediately if the root account is used.
 
-![CloudWatch Alarms ](screenshots/cloudwatch-alarms.png)
+![CloudWatch Alarms ](cloudwatch-alarms.png)
 
 ### 4. SNS Email Notifications
 - Created SNS topic named `security-alerts`
