@@ -62,11 +62,27 @@ Root account usage should be rare and monitored closely. This alarm ensures I'm 
 - Tested alert delivery by triggering alarms
 *Real-time notifications ensure security events don't go unnoticed.
 
+
+### Email Alert Example
+![Email Alert](email-alert.png)
+
 ## Security Use Cases Covered
 - Detects unauthorized root account usage
 - Alerts on insecure S3 bucket configurations
 - Monitors security group changes exposing SSH (port 22)
 - Provides audit trails for incident response
+
+## Other Screenshots
+### CloudTrail Event History
+![CloudTrail Events](screenshots/event-history.png)
+
+### AWS Config Compliance Rules
+![Config Rules](screenshots/config-rules.png)
+
+### CloudWatch Metrics
+![Metrics Dashboard](screenshots/metrics.png)
+
+
 
 ## What I Learned
 
