@@ -29,7 +29,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
 - Set up CloudWatch Logs integration
 *CloudTrail provides a complete audit trail of all API calls, which is essential for security monitoring and compliance.
 
-![CloudTrail Screenshot](screenshots/cloudtrail-enabled.png)
+![CloudTrail Screenshot](cloudtrail-enabled.png)
 
 ### 2. AWS Config Setup
 - Enabled AWS Config to track resource configurations
@@ -39,7 +39,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
   - `restricted-ssh` - Monitors security groups for unrestricted SSH access
 - Config continuously monitors resources and flags non-compliant configurations before they become security issues.
 
-![Config Dashboard Screenshot](screenshots/config-compliance.png)
+![Config Dashboard](config-compliance.png)
 
 ### 3. CloudWatch Alarms & Monitoring
 - Created metric filter to detect root account usage
@@ -54,7 +54,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
 **Why it matters:**
 Root account usage should be rare and monitored closely. This alarm ensures I'm notified immediately if the root account is used.
 
-![CloudWatch Alarms Screenshot](screenshots/cloudwatch-alarms.png)
+![CloudWatch Alarms ](screenshots/cloudwatch-alarms.png)
 
 ### 4. SNS Email Notifications
 - Created SNS topic named `security-alerts`
