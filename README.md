@@ -5,7 +5,7 @@ SOC-style Cloud Security monitoring using AWS CloudWatch
 Built a comprehensive security monitoring infrastructure on AWS to track API activity, detect configuration changes, and send real-time alerts for security events.
 
 ## Architecture
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](screenshots/architecture-diagram.png)
 
 ## Services Used
 - **AWS CloudTrail** - Logs all API activity across the AWS account
@@ -29,7 +29,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
 - Set up CloudWatch Logs integration
 *CloudTrail provides a complete audit trail of all API calls, which is essential for security monitoring and compliance.
 
-![CloudTrail Screenshot](cloudtrail-enabled.png)
+![CloudTrail Screenshot](screenshots/cloudtrail-enabled.png)
 
 ### 2. AWS Config Setup
 - Enabled AWS Config to track resource configurations
@@ -39,7 +39,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
   - `restricted-ssh` - Monitors security groups for unrestricted SSH access
 - Config continuously monitors resources and flags non-compliant configurations before they become security issues.
 
-![Config Dashboard](config-compliance.png)
+![Config Dashboard](screenshots/config-compliance.png)
 
 ### 3. CloudWatch Alarms & Monitoring
 - Created metric filter to detect root account usage
@@ -54,7 +54,7 @@ Built a comprehensive security monitoring infrastructure on AWS to track API act
 **Why it matters:**
 Root account usage should be rare and monitored closely. This alarm ensures I'm notified immediately if the root account is used.
 
-![CloudWatch Alarms ](cloudwatch-alarms.png)
+![CloudWatch Alarms ](screenshots/cloudwatch-alarms.png)
 
 ### 4. SNS Email Notifications
 - Created SNS topic named `security-alerts`
@@ -64,7 +64,7 @@ Root account usage should be rare and monitored closely. This alarm ensures I'm 
 
 
 ### Email Alert Example
-![Email Alert](email-alert.png)
+![Email Alert](screenshots/email-alert.png)
 
 ## Security Use Cases Covered
 - Detects unauthorized root account usage
@@ -74,13 +74,13 @@ Root account usage should be rare and monitored closely. This alarm ensures I'm 
 
 ## Other Screenshots
 ### CloudTrail Event History
-![CloudTrail Events](event-history.png)
+![CloudTrail Events](screenshots/event-history.png)
 
 ### AWS Config Compliance Rules
-![Config Rules](config-rules.png)
+![Config Rules](screenshots/config-rules.png)
 
 ### CloudWatch Metrics
-![Metrics Dashboard](metrics.png)
+![Metrics Dashboard](screenshots/metrics.png)
 
 
 
