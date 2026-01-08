@@ -74,13 +74,13 @@ Root account usage should be rare and monitored closely. This alarm ensures I'm 
 
 ## Other Screenshots
 ### CloudTrail Event History
-![CloudTrail Events](screenshots/event-history.png)
+![CloudTrail Events](event-history.png)
 
 ### AWS Config Compliance Rules
-![Config Rules](screenshots/config-rules.png)
+![Config Rules](config-rules.png)
 
 ### CloudWatch Metrics
-![Metrics Dashboard](screenshots/metrics.png)
+![Metrics Dashboard](metrics.png)
 
 
 
