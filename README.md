@@ -5,7 +5,7 @@ SOC-style Cloud Security monitoring using AWS CloudWatch
 Built a comprehensive security monitoring infrastructure on AWS to track API activity, detect configuration changes, and send real-time alerts for security events.
 
 ## Architecture
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 
 ## Services Used
 - **AWS CloudTrail** - Logs all API activity across the AWS account
